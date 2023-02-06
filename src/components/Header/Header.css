@@ -8,8 +8,8 @@ header {
 
 }
 
-.logo { /* Use vw / vh instead?  of px */
+.logo { /* Need media queries */
   width: 117px;
   height: 135px;
-  margin-left: 5em;
+  margin-left: 5vw;
 }
