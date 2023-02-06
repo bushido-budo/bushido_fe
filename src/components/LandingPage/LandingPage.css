@@ -28,7 +28,7 @@ p {
   word-wrap: break-word;
 }
 
-.karate-pose-img {
-  width: 50vw;
+.karate-pose-img { /* Need media queries - display a different image on smaller screens? */
+  width: 50vw; 
   height: 70vh;
 }
