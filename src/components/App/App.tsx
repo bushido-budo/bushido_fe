@@ -1,12 +1,15 @@
+import Header from '../Header/Header';
+import LandingPage from '../LandingPage/LandingPage';
+import Footer from '../Footer/Footer';
 import './App.css';
 
 const App = () => {
   return (
-    <>
       <main>
-        Test 123
+        <Header />
+        <LandingPage />
+        <Footer />
       </main>
-    </>
   );
 }
 
