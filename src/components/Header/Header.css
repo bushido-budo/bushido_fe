@@ -1,15 +1,15 @@
 header {
   width: 100%;
-  height: 25vh;
+  height: 16vh;
 }
 
 .logo-container {
   display: flex;
-  /* width: 10vw; */
-  /* margin: auto; */
+
 }
 
-img {
+.logo { /* Use vw / vh instead?  of px */
   width: 117px;
   height: 135px;
+  margin-left: 5em;
 }
