@@ -1,0 +1,34 @@
+section {
+  height: 70vh;
+  width: 100%;
+}
+
+.eyecatcher-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+article {
+  width: 50vw;
+  height: 70vh;
+  background-color: #14110F;
+}
+
+aside {
+  width: 60vw;
+  height: 70vh;
+  background-color: #14110F;
+  margin-left: 10px;
+}
+
+p {
+  color: #DAE0DE;
+  word-wrap: break-word;
+}
+
+.karate-pose-img { /* Need media queries - display a different image on smaller screens? */
+  width: 50vw; 
+  height: 70vh;
+}

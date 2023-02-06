@@ -1,0 +1,10 @@
+nav {
+  width: 60%;
+  margin: auto;
+}
+
+.links-container {
+  height: 4vh;
+  width: 60vw;
+  background-color: #14110F;
+}
