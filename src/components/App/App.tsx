@@ -1,5 +1,6 @@
 import Header from '../Header/Header';
-import LandingPage from '../LandingPage/LandingPage';
+// import LandingPage from '../LandingPage/LandingPage';
+import StudentDashboard from '../StudentDashboard/StudentDashboard';
 import Footer from '../Footer/Footer';
 import './App.css';
 
@@ -7,8 +8,9 @@ const App = () => {
   return (
       <main>
         <Header />
-        <LandingPage />
-        <Footer />
+        {/* <LandingPage /> */}
+        <StudentDashboard />
+        {/* <Footer /> */}
       </main>
   );
 }
