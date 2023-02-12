@@ -1,0 +1,36 @@
+.sections-container {
+  width: 80vw;
+  height: 101vh;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.upper-sections-container {
+  display: flex;
+}
+
+.lower-section-container,
+.upper-sections-container {
+  width: 80vw;
+}
+
+.student-profile,
+.student-metrics {
+  width: 40vw;
+  height: 50vh;
+}
+
+.student-techniques {
+  width: 79.5vw;
+  height: 49.5vh;
+}
+
+.student-profile,
+.student-metrics,
+.student-techniques {
+  background-color: #14110F;
+  border-color: #040506;
+  border-style: solid;
+}
+
+/* Need media queries and refactoring */
