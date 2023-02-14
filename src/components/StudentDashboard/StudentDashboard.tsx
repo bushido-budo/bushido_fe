@@ -2,8 +2,8 @@ import './StudentDashboard.css'
 
 const StudentDashboard = () => {
   return (
-    <div className='sections-container'>
-      <div className='upper-sections-container'>
+    <div className='student-sections-container'>
+      <div className='student-upper-sections-container'>
       <section className='student-profile'>
 
       </section>
@@ -11,7 +11,7 @@ const StudentDashboard = () => {
 
       </section>
       </div>
-      <div className='lower-section-container'>
+      <div className='student-lower-section-container'>
       <section className='student-techniques'>
 
       </section>

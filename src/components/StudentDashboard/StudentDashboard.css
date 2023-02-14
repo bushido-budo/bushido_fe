@@ -1,16 +1,16 @@
-.sections-container {
+.student-sections-container {
   width: 80vw;
   height: 101vh;
   margin: auto;
   margin-top: 5vh;
 }
 
-.upper-sections-container {
+.student-upper-sections-container {
   display: flex;
 }
 
-.lower-section-container,
-.upper-sections-container {
+.student-lower-section-container,
+.student-upper-sections-container {
   width: 80vw;
 }
 
