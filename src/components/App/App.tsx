@@ -1,6 +1,7 @@
 import Header from '../Header/Header';
 // import LandingPage from '../LandingPage/LandingPage';
-import StudentDashboard from '../StudentDashboard/StudentDashboard';
+// import StudentDashboard from '../StudentDashboard/StudentDashboard';
+import AdminDashboard from '../AdminDashboard/AdminDashboard';
 import Footer from '../Footer/Footer';
 import './App.css';
 
@@ -9,7 +10,8 @@ const App = () => {
       <main>
         <Header />
         {/* <LandingPage /> */}
-        <StudentDashboard />
+        {/* <StudentDashboard /> */}
+        <AdminDashboard />
         {/* <Footer /> */}
       </main>
   );
