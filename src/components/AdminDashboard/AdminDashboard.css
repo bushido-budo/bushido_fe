@@ -1,0 +1,47 @@
+.admin-sections-container {
+  width: 80vw;
+  height: 101vh;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.admin-upper-sections-container {
+  display: flex;
+}
+
+.admin-lower-section-container,
+.admin-upper-sections-container {
+  width: 80vw;
+}
+
+.students-list,
+.belt-ranks {
+  width: 25vw;
+}
+
+.dojo-metrics {
+  width: 30vw;
+}
+
+.students-list,
+.belt-ranks,
+.dojo-metrics {
+  height: 50vh;
+}
+
+
+.fitness-challenge-info {
+  width: 79.5vw;
+  height: 49.5vh;
+}
+
+.students-list,
+.belt-ranks,
+.dojo-metrics,
+.fitness-challenge-info {
+  background-color: #14110F;
+  border-color: #040506;
+  border-style: solid;
+}
+
+/* Need media queries and refactoring */
