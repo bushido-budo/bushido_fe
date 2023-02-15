@@ -1,10 +1,19 @@
+import { NavLink } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = () => {
   return (
     <nav>
       <div className='links-container'>
-        NavBar Stuff
+        <div>
+          <NavLink to='/'>Home</NavLink>
+        </div>
+        <div>
+          <NavLink to='/dashboard/student_id'>My Dashboard</NavLink>
+        </div>
+        <div>
+          <NavLink to='/dashboard/admin'>Admin Dashboard</NavLink>
+        </div>
       </div>
     </nav>
   )
