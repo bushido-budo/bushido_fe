@@ -1,5 +1,5 @@
 const studentData = {
-  data:{
+  data: {
 		id: 1,
     first_name: "James",
     last_name: "Smith",
@@ -19,12 +19,12 @@ const studentData = {
         lunge_pumps: 42
       }
     },
-    current_material:{
+    current_material: {
       blocking_system: {
         hammer: [1,2], 
         wing_block: [1,2]
       },
-        eight_point_knife_counter:{
+        eight_point_knife_counter: {
           knife_1: "palm heel", 
           knife_2: "palm heel", 
           knife_3: "cross shuto",
@@ -42,7 +42,7 @@ const studentData = {
       foot_works:["Chinese catwalk"],
       grab_defenses:["single wrist grab"],
       kata_forms:["Kata 2"],
-      kata_skills:{
+      kata_skills: {
       Level_2: ["Transitions", "Timing", "Sentencing"]
       },
       kempo_techniques:[
