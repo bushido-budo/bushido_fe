@@ -1,7 +1,8 @@
+import { FC } from "react"
 import "./LandingPage.css"
 import landingImage from '../../assets/nguyen-hung-iVTl2SylXG0-unsplash.jpg'
 
-const LandingPage = () => {
+const LandingPage: FC = () => {
   return (
     <section>
       <div className="eyecatcher-container">
