@@ -1,6 +1,12 @@
+import { FC } from 'react';
+import { Admin } from "../../interfaces/interfaces"
 import './AdminDashboard.css'
 
-const AdminDashboard = () => {
+interface AdminDashboardProps {
+  adminInfo: Admin
+}
+
+const AdminDashboard: FC<AdminDashboardProps> = ({ adminInfo }) => {
   return (
     <div className='admin-sections-container'>
     <div className='admin-upper-sections-container'>
