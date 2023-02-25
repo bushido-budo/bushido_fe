@@ -1,3 +1,8 @@
+const image_1 = "../assets/1000_F_53648608_94fr8EiDJycUhcrIJgfYmud0L5X5YZiX.jpeg"
+const image_2 = "../assets/gettyimages-84483154-612x612.jpeg"
+const image_3 = "../assets/photo-bearded-man-taekwondo-uniform-preparing-fight-come_182527-3870.jpeg"
+const image_4 = "../assets/happy-female-fighter-posing-medium-shot_23-2148446177.jpeg"
+
 const adminData = {
 admin_data: {
     students: [ 
@@ -5,25 +10,29 @@ admin_data: {
         first_name: "Jenny",
         last_name: "McName",
         current_belt_rank: "purple",
-        user_status: 1
+        user_status: 1,
+        image: image_1
       },
       {
         first_name: "Benny",
         last_name: "McName",
         current_belt_rank: "yellow",
-        user_status: 1
+        user_status: 1,
+        image: image_2
       },
       {
         first_name: "Lenny",
         last_name: "McName",
         current_belt_rank: "orange",
-        user_status: 1
+        user_status: 1,
+        image: image_3
       },
       {
         first_name: "Jenni",
         last_name: "McName",
         current_belt_rank: "black 1",
-        user_status: 1
+        user_status: 1,
+        image: image_4
       },
     ], 
     dojo_metrics: {
