@@ -13,7 +13,7 @@ interface Admin {
     belt_ranks: string[],
     belt_ranks_fitness_challenge: {
       star_rating: {
-        default_val :{
+        default_val: {
           gold: {
             jump_rope: number,
             sit_ups: number,
@@ -33,20 +33,20 @@ interface Admin {
             lunge_pumps: number
           }
         },
-        black_belt:{
-          gold:{
+        black_belt: {
+          gold: {
             jump_rope: number,
             sit_ups: number,
             balanced_kicks: number,
             lunge_pumps: number
           },
-          silver:{
+          silver: {
             jump_rope: number,
             sit_ups: number,
             balanced_kicks: number,
             lunge_pumps: number
           },
-          bronze:{
+          bronze: {
             jump_rope: number,
             sit_ups: number,
             balanced_kicks: number,
@@ -61,7 +61,7 @@ interface Admin {
           balanced_kicks: number,
           lunge_pumps: number
         },
-        black_belt:{
+        black_belt: {
           jump_rope: number,
           sit_ups: number,
           balanced_kicks: number,
@@ -100,7 +100,7 @@ interface Student {
         balanced_kicks: number,
         lunge_pumps: number
       },
-      dojo_average:{
+      dojo_average: {
         jump_rope: number,
         sit_ups: number,
         balanced_kicks: number,
@@ -133,7 +133,7 @@ interface Student {
       kata_skills: {
       Level_2: string[]
       },
-      kempo_techniques:string[],
+      kempo_techniques: string[],
       kick_defenses: string[],
       kicks_of_the_four_tides: string[],
       kicks: string[],
