@@ -12,8 +12,8 @@ import Footer from '../Footer/Footer';
 import './App.css';
 
 const App: FC = () => {
-  const [adminInfo, setAdminData] = useState<Admin>({})
-  const [studentInfo, setStudentData] = useState<Student>({})
+  const [adminInfo, setAdminData] = useState<Admin>(Object)
+  const [studentInfo, setStudentData] = useState<Student>(Object)
 
   useEffect(():void => { // For testing purposes
     setAdminData(adminData)
