@@ -91,6 +91,7 @@ interface Student {
 		id: number,
     first_name: string,
     last_name: string,
+    image: string,
     user_status: number,
     belt_rank: string,
     belt_test_metrics: {
