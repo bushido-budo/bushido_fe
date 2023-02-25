@@ -1,6 +1,12 @@
+import { FC } from 'react';
+import { Student } from '../../interfaces/interfaces';
 import './StudentDashboard.css'
 
-const StudentDashboard = () => {
+interface StudentDashboardProps {
+  studentInfo: Student
+}
+
+const StudentDashboard: FC<StudentDashboardProps> = ({ studentInfo }) => {
   return (
     <div className='student-sections-container'>
       <div className='student-upper-sections-container'>
