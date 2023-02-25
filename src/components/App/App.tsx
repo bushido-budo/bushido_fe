@@ -20,14 +20,12 @@ const App: FC = () => {
     setStudentData(studentData)
   }, [])
 
-
-
   return (
       <main>
         <Header />
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/dashboard/student_id' element={<StudentDashboard  studentInfo={studentInfo} />} />
+          <Route path='/dashboard/student_id' element={<StudentDashboard studentInfo={studentInfo} />} />
           <Route path='/dashboard/admin' element={<AdminDashboard adminInfo={adminInfo} />} />
         </Routes>
         <Footer />
