@@ -33,4 +33,9 @@
   border-style: solid;
 }
 
+.student-image {
+  width: 120px;
+  height: 120px;
+}
+
 /* Need media queries and refactoring */
