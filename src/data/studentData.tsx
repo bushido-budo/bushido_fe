@@ -1,11 +1,11 @@
-const image_1 = "../assets/1000_F_53648608_94fr8EiDJycUhcrIJgfYmud0L5X5YZiX.jpeg"
+import image from "../assets/1000_F_53648608_94fr8EiDJycUhcrIJgfYmud0L5X5YZiX.jpeg"
 
 const studentData = {
   data: {
 		id: 1,
     first_name: "Jenny",
     last_name: "McName",
-    image: image_1,
+    image: image,
     user_status: 0,
     belt_rank: "purple",
     belt_test_metrics:{
