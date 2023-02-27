@@ -8,18 +8,14 @@ interface StudentDashboardProps {
 
 const StudentDashboard: FC<StudentDashboardProps> = ({ studentInfo }) => {
 
-  // Note: studentInfo.data.blah info breaks on page student dashboard page refresh
-  // will research local storage or some other way to fix the issue
-
-  // Also, should the studentInfo be passed down from App, or just loaded directly
-  // here on page load?
   return (
     <div className='student-sections-container'>
       <div className='student-upper-sections-container'>
       <section className='student-profile'>
-        <p>{`${studentInfo.data.first_name} ${studentInfo.data.last_name}`}</p>
-        <p>{studentInfo.data.belt_rank}</p>
-        <p>{studentInfo.data.user_status}</p>
+        { studentInfo.data && <img className='student-image' src={studentInfo.data.image} alt={`${studentInfo.data.first_name} ${studentInfo.data.last_name}`} />}
+        { studentInfo.data && <p>Name: {`${studentInfo.data.first_name} ${studentInfo.data.last_name}`}</p> }
+        { studentInfo.data && <p>Rank: {studentInfo.data.belt_rank}</p> }
+        { studentInfo.data && <p>Status: {studentInfo.data.user_status}</p> }
       </section>
       <section className='student-metrics'>
 
