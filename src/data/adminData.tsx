@@ -1,7 +1,7 @@
-const image_1 = "../assets/1000_F_53648608_94fr8EiDJycUhcrIJgfYmud0L5X5YZiX.jpeg"
-const image_2 = "../assets/gettyimages-84483154-612x612.jpeg"
-const image_3 = "../assets/photo-bearded-man-taekwondo-uniform-preparing-fight-come_182527-3870.jpeg"
-const image_4 = "../assets/happy-female-fighter-posing-medium-shot_23-2148446177.jpeg"
+import image_1 from "../assets/1000_F_53648608_94fr8EiDJycUhcrIJgfYmud0L5X5YZiX.jpeg"
+import image_2 from "../assets/gettyimages-84483154-612x612.jpeg"
+import image_3 from "../assets/photo-bearded-man-taekwondo-uniform-preparing-fight-come_182527-3870.jpeg"
+import image_4 from "../assets/happy-female-fighter-posing-medium-shot_23-2148446177.jpeg"
 
 const adminData = {
 admin_data: {
