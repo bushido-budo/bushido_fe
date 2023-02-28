@@ -36,20 +36,46 @@ const StudentDashboard: FC<StudentDashboardProps> = ({ studentInfo }) => {
       <div className='student-lower-section-container'>
       <section className='student-techniques'>
         <div className='current-materials'>
-          <div >
+          <div>
             { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material)[0]}</p>}
             { studentInfo.data && studentInfo.data.current_material.blocking_system.hammer.map(val => <p key={val}>{val}</p>)}
           </div>
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.blocking_system)[1]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material)[1]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[0]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[1]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[2]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[3]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[4]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[5]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[6]}</p>}
-          { studentInfo.data && <p> {studentInfo.data && Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[7]}</p>}
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.blocking_system)[1]}</p>}
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material)[1]}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[0]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_1']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[1]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_2']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[2]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_3']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[3]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_4']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[4]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_5']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[5]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_6']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[6]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_7']}</p>}
+          </div>
+          <div>
+            { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[7]}</p>}
+            { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_8']}</p>}
+          </div>
         </div>
       </section>
       </div>
