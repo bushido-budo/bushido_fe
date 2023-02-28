@@ -76,6 +76,8 @@ const StudentDashboard: FC<StudentDashboardProps> = ({ studentInfo }) => {
             { studentInfo.data && <p> {Object.keys(studentInfo.data.current_material.eight_point_knife_counter)[7]}</p>}
             { studentInfo.data && <p> {studentInfo.data.current_material.eight_point_knife_counter['knife_8']}</p>}
           </div>
+          {/* Refactor above code */}
+          {/* More data sections will need to be added and styled */}
         </div>
       </section>
       </div>
