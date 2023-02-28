@@ -38,4 +38,9 @@
   height: 120px;
 }
 
+.student-techniques,
+.student-metrics {
+  overflow-y: auto;
+}
+
 /* Need media queries and refactoring */
