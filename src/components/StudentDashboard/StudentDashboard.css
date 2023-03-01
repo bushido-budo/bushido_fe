@@ -33,4 +33,14 @@
   border-style: solid;
 }
 
+.student-image {
+  width: 120px;
+  height: 120px;
+}
+
+.student-techniques,
+.student-metrics {
+  overflow-y: auto;
+}
+
 /* Need media queries and refactoring */

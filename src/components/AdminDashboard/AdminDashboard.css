@@ -14,18 +14,19 @@
   width: 80vw;
 }
 
-.students-list,
-.belt-ranks {
+.students-list-container,
+.belt-ranks-container {
   width: 25vw;
+  overflow-y: auto;
 }
 
-.dojo-metrics {
+.dojo-metrics-container {
   width: 30vw;
 }
 
-.students-list,
-.belt-ranks,
-.dojo-metrics {
+.students-list-container,
+.belt-ranks-container,
+.dojo-metrics-container {
   height: 50vh;
 }
 
@@ -33,11 +34,12 @@
 .fitness-challenge-info {
   width: 79.5vw;
   height: 49.5vh;
+  overflow-y: auto;
 }
 
-.students-list,
-.belt-ranks,
-.dojo-metrics,
+.students-list-container,
+.belt-ranks-container,
+.dojo-metrics-container,
 .fitness-challenge-info {
   background-color: #14110F;
   border-color: #040506;
