@@ -14,6 +14,9 @@ const Nav = () => {
         <div>
           <NavLink to='/dashboard/admin'>Admin Dashboard</NavLink>
         </div>
+        <div>
+          <NavLink to='/login'>Login</NavLink>
+        </div>
       </div>
     </nav>
   )
