@@ -1,0 +1,40 @@
+.login-container {
+  height: 70vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.login-banner {
+  text-align: center;
+}
+
+.login {
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #14110F;
+}
+
+.image-container {
+  height: 70vh;
+  width: 50%;
+}
+
+.karate-image {
+  height: 70vh;
+  width: 30vw;
+}
