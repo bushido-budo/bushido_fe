@@ -9,6 +9,30 @@
   display: flex;
 }
 
+.student-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-metrics {
+  text-align: center;
+}
+
+.metrics-header {
+  font-size: x-large;
+}
+
+.header {
+  font-size: large;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .student-lower-section-container,
 .student-upper-sections-container {
   width: 80vw;
@@ -34,13 +58,25 @@
 }
 
 .student-image {
-  width: 120px;
-  height: 120px;
+  width: 40%;
+  height: auto;
 }
 
 .student-techniques,
 .student-metrics {
   overflow-y: auto;
+}
+
+.current-materials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 49.5vh;
+}
+
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Need media queries and refactoring */
